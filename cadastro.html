@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cad.css">
+    <title>Cadastros</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <a href="./index.html"><li>Início</li></a>
+            <a href="./cadastro.html"><li>Cadastros</li></a>
+            <a href="./form.html"><li>Formulário</li></a>
+            <a href="./src/animes.html"><li>Animes</li></a>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section>
+    <h2>Preencha abaixo para se cadastrar no site</h2>
+    <form id="container" method="post" action="./form.html">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" class="cadastros">
+        <br>
+        <label for="apelido">Apelido:</label>
+        <input type="text" name="apelido" class="cadastros">
+        <br>
+        <label for="telefone">Telefone:</label>
+        <input type="number" name="telefone" class="cadastros">
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" class="cadastros">
+        <br>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" class="cadastros">
+        <br>
+        <label for="confirmarsenha">Confirmar Senha:</label>
+        <input type="password" name="confirmarsenha" class="cadastros">
+        <br>
+        <button id="submit-button" type="submit">Enviar</button>
+        <input id="submit-button" type="reset" value="Limpar" class="limpar">
+    </form>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2023 AnimeFlix. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>

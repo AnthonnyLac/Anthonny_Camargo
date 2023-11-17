@@ -1,0 +1,45 @@
+
+
+header h1 {
+    font-size: 24px;
+}
+
+
+.banner {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d98ceddd-228a-439b-a6f1-3266a6be0e2e/dectbcn-99a7c5c9-1030-4013-a32b-344c1c2f33e4.png/v1/fill/w_1280,h_377,q_80,strp/anime_banner_black_and_white_by_nenexhanako_dectbcn-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Mzc3IiwicGF0aCI6IlwvZlwvZDk4Y2VkZGQtMjI4YS00MzliLWE2ZjEtMzI2NmE2YmUwZTJlXC9kZWN0YmNuLTk5YTdjNWM5LTEwMzAtNDAxMy1hMzJiLTM0NGMxYzJmMzNlNC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.7RDbYqmQjUW5jz7sWBWxWvEfsb3QAR3_Qn-8d3O6Ax4');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+.banner h2 {
+    font-size: 36px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.destaques {
+    padding: 20px;
+}
+
+.anime-card {
+    margin: 20px;
+    text-align: center;
+}
+
+.anime-card img {
+    max-width: 100%;
+    width: 750px;
+    height: 450px;
+}
+
