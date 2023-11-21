@@ -1,3 +1,15 @@
+<!--
+/* Alterações */
+ 1) Reorganização das pastas e arquivos HTML, JS e CSS.
+ 2) Criação de uma função para retornar um objeto de animes disponíveis no main.js.
+ 3) Povoamento do localStorage com a lista de animes disponíveis no main.js.
+ 4) Tornando aleatória a exibição do anime semanal no Index.html.
+ 5) Tornando dinâmica a exibição da listagem de animes no animes.html.
+ 6) Adicionando função para tratar índices maiores que a quantidade de animes no animes.js.
+ 7) Alterando o estilo CSS da classe "anime" no método createErrorGradient no animes.js.
+
+-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -25,24 +37,17 @@
     </section>
 
     <section class="destaques">
-        <h2>Destaques da Semana</h2>
-        <div class="anime-card">
-            <img src="https://images.immediate.co.uk/production/volatile/sites/3/2023/05/JujutsuKaisenS2BaseAssets16x93840x2160-Cropped-dba19e6.png?quality=90&resize=980,654" alt="Jujutsu">
-            <h3>Jujutsu-Kaisen Season 2</h3>
+        <h2>Destaque da Semana</h2>
+
+        <div class="anime-card" id="animeCard">
         </div>
-        <div class="anime-card">
-            <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/ea075b926e1073f4eb016bff8cdb434c.jpe" alt="Chainsaw">
-            <h3>Chainsaw Man</h3>
-        </div>
-        <div class="anime-card">
-            <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="One Piece">
-            <h3>One Piece</h3>
-        </div>
+
     </section>
 </main>
 <footer>
     <p>&copy; 2023 AnimeFlix. Todos os direitos reservados.</p>
 </footer>
 <script src="./assets/js/main.js"></script>
+<script src="./assets/js/index.js"></script>
 </body>
 </html>

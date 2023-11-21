@@ -21,7 +21,7 @@
 <main>
     <section>
     <h2>Preencha abaixo para se cadastrar no site</h2>
-    <form id="container" method="post" action="./form.html">
+    <form id="container" method="post" >
         <label for="nome">Nome:</label>
         <input type="text" name="nome" class="cadastros">
         <br>
@@ -40,7 +40,7 @@
         <label for="confirmarsenha">Confirmar Senha:</label>
         <input type="password" name="confirmarsenha" class="cadastros">
         <br>
-        <button id="submit-button" type="submit">Enviar</button>
+        <button id="submit-button" onclick="preencherFormulario()" type="submit">Enviar</button>
         <input id="submit-button" type="reset" value="Limpar" class="limpar">
     </form>
     </section>
@@ -48,5 +48,7 @@
 <footer>
     <p>&copy; 2023 AnimeFlix. Todos os direitos reservados.</p>
 </footer>
+<script src="./assets/js/main.js"></script>
+
 </body>
 </html>
